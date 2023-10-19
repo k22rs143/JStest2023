@@ -27,8 +27,14 @@
             $("#disp2").css("background-color","gray")
             $("#disp2").css("font-family","arial black")
 
+            var a = [30, 20, -5,-40]; 
+            var msg=""; 
+            for(let i=0;i<a.length;i++) { 
+              msg += i + ":" + a[i] + "<br>"; 
+              } 
+            $("#disp2").html(msg); 
 
-          var a=0;
+          /*var a=0;
           var txt="";
             txt+="a: "+a+"<br>";
             if(a==1){
@@ -37,7 +43,7 @@
               txt+="FALSE<br>";
             }
             txt+="a: "+a+"<br>";
-            $("#disp2").html(txt);
+            $("#disp2").html(txt);*/
         }
     </script>
 </head>
